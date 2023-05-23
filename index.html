@@ -1,24 +1,52 @@
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    link rel="stylesheet" href="./assets/js/javascript.js">
-    <title>website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page: JS Quiz Game</title>
 </head>
 
+<body>
+    <h1>JS Quiz Game</h1>
+    <h2>Try to answer code-related questions within the time limit.</h2>
+    <h3>NOTE: Incorrect answers will penalize your score/time by ten seconds!</h3>
 
-//add html skeleton
-//add header
-//add title
-//add start button
-//add timer
-//add questions
-//add answers
-//add submit button
-//add footer
-//add high score button
-//add high score list
-//add clear high score button
-//add go back button
-//add view high score button
+    <section class="highscore">
+        See what others have done: <button><a href="highscore.html"> Top scores </a></button>
+    </section>
+
+    <section class="quiz">
+        <p>Answer the questions within the time limit. 
+            <br><br>Keep in mind that incorrect answers will penalize your score/time
+            by ten seconds!</p>
+        When you are ready: <button>Start Quiz</button>
+        
+    </section>
+
+    <section class="questions">
+        <br><br>
+        <h1>Quiz in progress. <br>
+        <h3>Question 1</h3>
+        <h4>What Commonly used data types DO NOT include:</h4>
+        <ol>
+            <li>strings</li>
+            <li>booleans</li>
+            <li>alerts</li>
+            <li>numbers</li>
+        </ol>
+
+        <br><br>    
+        <h3>There are <span>75 Seconds</span> left!</h3>
+        Correct Answer Count: <span>0</span>
+        Incorrect Answer Count: <span>0</span>
+
+        
+    </section>
+
+
+
+</body>
+
+</html>
